@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNgMavenExampleSuite" parallel="false">
+  <test name="TestNgMavenTest">
+    <classes>
+      <class name="com.mycompany.app.APITest"/>
+      <class name="com.mycompany.app.AppiumTest"/>
+      <class name="com.mycompany.app.SeleniumTest"/>
+       <class name="com.mycompany.app.TestBase"/> 
+       <class name="com.mycompany.app.TestBaseFactory"/>        
+    </classes>
+  </test>
+</suite>

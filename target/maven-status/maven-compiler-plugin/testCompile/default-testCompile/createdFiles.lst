@@ -1,0 +1,9 @@
+com\mycompany\app\TestBaseFactory.class
+com\mycompany\pages\HomePage.class
+com\mycompany\app\AppiumTest.class
+com\mycompany\factory\HomePageFactory.class
+com\mycompany\pages\LoginPage.class
+com\mycompany\app\SeleniumTest.class
+com\mycompany\app\TestBase.class
+com\mycompany\app\APITest.class
+com\mycompany\factory\LoginPageFactory.class

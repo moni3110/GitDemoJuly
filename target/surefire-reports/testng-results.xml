@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="41592" started-at="2020-07-25T21:31:00 IST" finished-at="2020-07-25T21:31:41 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="41592" started-at="2020-07-25T21:31:00 IST" finished-at="2020-07-25T21:31:41 IST">
+      <class name="com.mycompany.app.APITest">
+        <test-method status="PASS" signature="ApiAutomate()[pri:0, instance:com.mycompany.app.APITest@4f970963]" name="ApiAutomate" duration-ms="5" started-at="2020-07-25T21:31:27 IST" finished-at="2020-07-25T21:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiAutomate -->
+        <test-method status="PASS" signature="ApiAutomate1()[pri:0, instance:com.mycompany.app.APITest@4f970963]" name="ApiAutomate1" duration-ms="0" started-at="2020-07-25T21:31:27 IST" finished-at="2020-07-25T21:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiAutomate1 -->
+      </class> <!-- com.mycompany.app.APITest -->
+      <class name="com.mycompany.app.SeleniumTest">
+        <test-method status="PASS" signature="BrowserAutomate()[pri:0, instance:com.mycompany.app.SeleniumTest@7b49cea0]" name="BrowserAutomate" duration-ms="1" started-at="2020-07-25T21:31:27 IST" finished-at="2020-07-25T21:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomate -->
+        <test-method status="PASS" signature="BrowserAutomate1()[pri:0, instance:com.mycompany.app.SeleniumTest@7b49cea0]" name="BrowserAutomate1" duration-ms="0" started-at="2020-07-25T21:31:27 IST" finished-at="2020-07-25T21:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomate1 -->
+      </class> <!-- com.mycompany.app.SeleniumTest -->
+      <class name="com.mycompany.app.TestBaseFactory">
+        <test-method status="PASS" signature="initializeFactory()[pri:0, instance:com.mycompany.app.TestBaseFactory@65e2dbf3]" name="initializeFactory" is-config="true" duration-ms="14838" started-at="2020-07-25T21:31:12 IST" finished-at="2020-07-25T21:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeFactory -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct_Factory()[pri:1, instance:com.mycompany.app.TestBaseFactory@65e2dbf3]" name="test_Home_Page_Appear_Correct_Factory" duration-ms="5243" started-at="2020-07-25T21:31:34 IST" finished-at="2020-07-25T21:31:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct_Factory -->
+        <test-method status="PASS" signature="TeardownTestFactory()[pri:0, instance:com.mycompany.app.TestBaseFactory@65e2dbf3]" name="TeardownTestFactory" is-config="true" duration-ms="922" started-at="2020-07-25T21:31:40 IST" finished-at="2020-07-25T21:31:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTestFactory -->
+      </class> <!-- com.mycompany.app.TestBaseFactory -->
+      <class name="com.mycompany.app.AppiumTest">
+        <test-method status="PASS" signature="AppiumAutomate()[pri:0, instance:com.mycompany.app.AppiumTest@61f8bee4]" name="AppiumAutomate" duration-ms="1" started-at="2020-07-25T21:31:27 IST" finished-at="2020-07-25T21:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumAutomate -->
+        <test-method status="PASS" signature="AppiumAutomate1()[pri:0, instance:com.mycompany.app.AppiumTest@61f8bee4]" name="AppiumAutomate1" duration-ms="1" started-at="2020-07-25T21:31:27 IST" finished-at="2020-07-25T21:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumAutomate1 -->
+      </class> <!-- com.mycompany.app.AppiumTest -->
+      <class name="com.mycompany.app.TestBase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.app.TestBase@2b9627bc]" name="initialize" is-config="true" duration-ms="12783" started-at="2020-07-25T21:31:00 IST" finished-at="2020-07-25T21:31:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:com.mycompany.app.TestBase@2b9627bc]" name="test_Home_Page_Appear_Correct" duration-ms="6752" started-at="2020-07-25T21:31:27 IST" finished-at="2020-07-25T21:31:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:com.mycompany.app.TestBase@2b9627bc]" name="TeardownTest" is-config="true" duration-ms="883" started-at="2020-07-25T21:31:39 IST" finished-at="2020-07-25T21:31:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- com.mycompany.app.TestBase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

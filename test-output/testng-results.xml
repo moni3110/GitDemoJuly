@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNgMavenExampleSuite" duration-ms="41205" started-at="2020-07-25T21:27:47 IST" finished-at="2020-07-25T21:28:28 IST">
+    <groups>
+    </groups>
+    <test name="TestNgMavenTest" duration-ms="41205" started-at="2020-07-25T21:27:47 IST" finished-at="2020-07-25T21:28:28 IST">
+      <class name="com.mycompany.app.SeleniumTest">
+        <test-method status="PASS" signature="BrowserAutomate()[pri:0, instance:com.mycompany.app.SeleniumTest@528931cf]" name="BrowserAutomate" duration-ms="5" started-at="2020-07-25T21:28:15 IST" finished-at="2020-07-25T21:28:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomate -->
+        <test-method status="PASS" signature="BrowserAutomate1()[pri:0, instance:com.mycompany.app.SeleniumTest@528931cf]" name="BrowserAutomate1" duration-ms="6" started-at="2020-07-25T21:28:15 IST" finished-at="2020-07-25T21:28:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomate1 -->
+      </class> <!-- com.mycompany.app.SeleniumTest -->
+      <class name="com.mycompany.app.APITest">
+        <test-method status="PASS" signature="ApiAutomate()[pri:0, instance:com.mycompany.app.APITest@7a1ebcd8]" name="ApiAutomate" duration-ms="29" started-at="2020-07-25T21:28:15 IST" finished-at="2020-07-25T21:28:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiAutomate -->
+        <test-method status="PASS" signature="ApiAutomate1()[pri:0, instance:com.mycompany.app.APITest@7a1ebcd8]" name="ApiAutomate1" duration-ms="8" started-at="2020-07-25T21:28:15 IST" finished-at="2020-07-25T21:28:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiAutomate1 -->
+      </class> <!-- com.mycompany.app.APITest -->
+      <class name="com.mycompany.app.AppiumTest">
+        <test-method status="PASS" signature="AppiumAutomate()[pri:0, instance:com.mycompany.app.AppiumTest@5faeada1]" name="AppiumAutomate" duration-ms="15" started-at="2020-07-25T21:28:15 IST" finished-at="2020-07-25T21:28:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumAutomate -->
+        <test-method status="PASS" signature="AppiumAutomate1()[pri:0, instance:com.mycompany.app.AppiumTest@5faeada1]" name="AppiumAutomate1" duration-ms="20" started-at="2020-07-25T21:28:15 IST" finished-at="2020-07-25T21:28:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumAutomate1 -->
+      </class> <!-- com.mycompany.app.AppiumTest -->
+      <class name="com.mycompany.app.TestBaseFactory">
+        <test-method status="PASS" signature="initializeFactory()[pri:0, instance:com.mycompany.app.TestBaseFactory@34cd072c]" name="initializeFactory" is-config="true" duration-ms="10576" started-at="2020-07-25T21:28:05 IST" finished-at="2020-07-25T21:28:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeFactory -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct_Factory()[pri:1, instance:com.mycompany.app.TestBaseFactory@34cd072c]" name="test_Home_Page_Appear_Correct_Factory" duration-ms="5590" started-at="2020-07-25T21:28:21 IST" finished-at="2020-07-25T21:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct_Factory -->
+        <test-method status="PASS" signature="TeardownTestFactory()[pri:0, instance:com.mycompany.app.TestBaseFactory@34cd072c]" name="TeardownTestFactory" is-config="true" duration-ms="844" started-at="2020-07-25T21:28:27 IST" finished-at="2020-07-25T21:28:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTestFactory -->
+      </class> <!-- com.mycompany.app.TestBaseFactory -->
+      <class name="com.mycompany.app.TestBase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.app.TestBase@11438d26]" name="initialize" is-config="true" duration-ms="17711" started-at="2020-07-25T21:27:47 IST" finished-at="2020-07-25T21:28:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:com.mycompany.app.TestBase@11438d26]" name="test_Home_Page_Appear_Correct" duration-ms="5271" started-at="2020-07-25T21:28:15 IST" finished-at="2020-07-25T21:28:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:com.mycompany.app.TestBase@11438d26]" name="TeardownTest" is-config="true" duration-ms="878" started-at="2020-07-25T21:28:26 IST" finished-at="2020-07-25T21:28:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- com.mycompany.app.TestBase -->
+    </test> <!-- TestNgMavenTest -->
+  </suite> <!-- TestNgMavenExampleSuite -->
+</testng-results>
